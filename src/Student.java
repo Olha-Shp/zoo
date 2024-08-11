@@ -9,7 +9,7 @@ public class Student {
 
 
     public Student(String studentFirstName, String studentLastName, int studentId){
-        this.courses = new ArrayList<Course>();
+        this.courses = new ArrayList<>();
         this.studentId = studentId;
         this.lastName = studentLastName;
         this.firstName = studentFirstName;
